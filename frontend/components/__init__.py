@@ -1,1 +1,3 @@
-# Frontend components
+"""
+Frontend component package.
+"""

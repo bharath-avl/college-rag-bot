@@ -1,11 +1,8 @@
 """
-Streamlit PDF syllabus file uploader component.
+PDF upload component — upload logic is integrated into the sidebar.
+
+This module is kept for backward compatibility; the actual upload UI
+lives in ``frontend.components.sidebar.render_sidebar()``.
 """
 
-import streamlit as st
-
-def render_uploader() -> None:
-    """
-    Render document/syllabus upload interface.
-    """
-    pass
+from frontend.components.sidebar import render_sidebar as render_uploader  # noqa: F401
